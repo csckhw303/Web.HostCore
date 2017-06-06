@@ -1,8 +1,8 @@
 const EnvUtil = require("./server/utils/env-utils");
 const DEFAULT_PORT = 8080;
 
-module.export = {
-   server: {
+module.exports = {
+    server: {
         host: EnvUtil.readEnvValue("MDC_HOST"),
         port: EnvUtil.readIntegerEnvValue("MDC_PORT", DEFAULT_PORT),
         debug: EnvUtil.readBoolEnvValue("MDC_DEBUG")
@@ -10,4 +10,4 @@ module.export = {
     api: {
         serviceUrl: EnvUtil.readEnvValue("MDC_WS_BASE_URL")
     }
-}
+};
