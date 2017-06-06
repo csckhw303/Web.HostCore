@@ -1,3 +1,4 @@
+const EnvUtil = require("./server/utils/env-utils");
 const DEFAULT_PORT = 8080;
 
 module.export = {

@@ -18,6 +18,7 @@
   "homepage": "https://github.com/csckhw303/Web.HostCore#readme",
   "dependencies": {
     "hapi": "^16.4.1",
+    "lodash": "^4.17.4",
     "path": "^0.12.7"
   }
 }

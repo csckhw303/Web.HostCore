@@ -18,4 +18,4 @@ const startSever = function (hostDir, log, cb) {
 
 };
 
-module.exports = {startServer};
+module.exports = {startSever};

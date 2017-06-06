@@ -5,7 +5,7 @@ const readEnvValue = function (key) {
     const e = process.env;
     const value = e[key];
     if (_.isNil(value)) {
-        global.logger.error(`Environment variable ${key} is missing`);
+        //global.logger.error(`Environment variable ${key} is missing`);
     }
     return value;
 };
