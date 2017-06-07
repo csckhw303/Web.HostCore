@@ -7,7 +7,7 @@ module.exports = function(server,dir) {
         handler: {
             directory: {
                 path: [Path.join(dir, "public"), Path.join(dir, "public", "assets")],
-                listing: true,
+                listing: true
             }
 
         }
